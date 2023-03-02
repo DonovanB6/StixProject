@@ -1,0 +1,62 @@
+{
+    "type": "bundle",
+    "id": "bundle--29c231db-950e-4c6d-afe8-42ef15f67aaf",
+    "objects": [
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--936671bf-fa42-49c8-a929-ff1979a63ae3",
+            "created": "2023-03-01T14:00:00.983Z",
+            "modified": "2023-03-02T16:24:50.579128Z",
+            "name": "rouge Student",
+            "description": "A disgruntled student angry about a bad test grade",
+            "threat_actor_types": [
+                "insider-disgruntled"
+            ],
+            "roles": [
+                "malware-author"
+            ],
+            "goals": [
+                "Take the OneUp service offline until grade adjusted"
+            ],
+            "sophistication": "advanced",
+            "primary_motivation": "revenge"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--85a9102a-9f91-4686-941d-32705c4a4b91",
+            "created": "2023-03-01T14:00:00.983Z",
+            "modified": "2023-03-01T14:00:00.983Z",
+            "name": "OneUp"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--febc666f-09fb-49bd-b3dc-677ad96a5033",
+            "created": "2016-08-08T15:50:10.983Z",
+            "modified": "2017-01-30T21:15:04.127Z",
+            "name": "DDOS attack"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5a193a9d-0ec1-4932-b7a4-0859fa531fbb",
+            "created": "2023-03-02T16:24:50.580129Z",
+            "modified": "2023-03-02T16:24:50.580129Z",
+            "relationship_type": "targets",
+            "source_ref": "threat-actor--936671bf-fa42-49c8-a929-ff1979a63ae3",
+            "target_ref": "identity--85a9102a-9f91-4686-941d-32705c4a4b91"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b71360ed-aab4-4200-b3f9-f2e8355027c9",
+            "created": "2023-03-02T16:24:50.581129Z",
+            "modified": "2023-03-02T16:24:50.581129Z",
+            "relationship_type": "uses",
+            "source_ref": "threat-actor--936671bf-fa42-49c8-a929-ff1979a63ae3",
+            "target_ref": "attack-pattern--febc666f-09fb-49bd-b3dc-677ad96a5033"
+        }
+    ]
+}
