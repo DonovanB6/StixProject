@@ -2,6 +2,7 @@ from stix2.v21 import (ThreatActor, Identity, AttackPattern, Campaign, Intrusion
 from stix2validator import validate_file, validate_instance, print_results, validate_string
 import json
 
+#test
 
 threat_actor = ThreatActor(
     type="threat-actor",
