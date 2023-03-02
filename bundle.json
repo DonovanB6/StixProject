@@ -1,13 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--29c231db-950e-4c6d-afe8-42ef15f67aaf",
+    "id": "bundle--efb445b5-44bc-4451-bd69-1a9fd36f6259",
     "objects": [
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--7f79af03-0ea8-4080-839f-fb93a6ca56a1",
+            "created": "2023-03-01T14:00:00.983Z",
+            "modified": "2023-03-02T16:56:19.408547Z",
+            "name": "Operation disguntled student",
+            "description": "A angry student tries to take down the wssu infastructure.",
+            "aliases": [
+                "DSW"
+            ],
+            "objective": "shut down OneUp & WebAssign"
+        },
         {
             "type": "threat-actor",
             "spec_version": "2.1",
-            "id": "threat-actor--936671bf-fa42-49c8-a929-ff1979a63ae3",
+            "id": "threat-actor--dd2945db-d1af-4be0-8451-06cd8968b502",
             "created": "2023-03-01T14:00:00.983Z",
-            "modified": "2023-03-02T16:24:50.579128Z",
+            "modified": "2023-03-02T16:56:19.408547Z",
             "name": "rouge Student",
             "description": "A disgruntled student angry about a bad test grade",
             "threat_actor_types": [
@@ -25,7 +38,7 @@
         {
             "type": "identity",
             "spec_version": "2.1",
-            "id": "identity--85a9102a-9f91-4686-941d-32705c4a4b91",
+            "id": "identity--16d8c6c7-2c90-497c-b128-ea431f213011",
             "created": "2023-03-01T14:00:00.983Z",
             "modified": "2023-03-01T14:00:00.983Z",
             "name": "OneUp"
@@ -33,30 +46,30 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--febc666f-09fb-49bd-b3dc-677ad96a5033",
-            "created": "2016-08-08T15:50:10.983Z",
-            "modified": "2017-01-30T21:15:04.127Z",
+            "id": "attack-pattern--9311663c-a6d0-44cf-832a-4487766e439b",
+            "created": "2023-03-01T14:00:00.983Z",
+            "modified": "2023-03-02T16:56:19.408547Z",
             "name": "DDOS attack"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--5a193a9d-0ec1-4932-b7a4-0859fa531fbb",
-            "created": "2023-03-02T16:24:50.580129Z",
-            "modified": "2023-03-02T16:24:50.580129Z",
+            "id": "relationship--ebc0cc87-6d42-4f60-af77-17fa504456de",
+            "created": "2023-03-02T16:56:19.408547Z",
+            "modified": "2023-03-02T16:56:19.408547Z",
             "relationship_type": "targets",
-            "source_ref": "threat-actor--936671bf-fa42-49c8-a929-ff1979a63ae3",
-            "target_ref": "identity--85a9102a-9f91-4686-941d-32705c4a4b91"
+            "source_ref": "threat-actor--dd2945db-d1af-4be0-8451-06cd8968b502",
+            "target_ref": "identity--16d8c6c7-2c90-497c-b128-ea431f213011"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--b71360ed-aab4-4200-b3f9-f2e8355027c9",
-            "created": "2023-03-02T16:24:50.581129Z",
-            "modified": "2023-03-02T16:24:50.581129Z",
+            "id": "relationship--7375c46f-55ea-4dff-abb2-380b432c8d9a",
+            "created": "2023-03-02T16:56:19.408547Z",
+            "modified": "2023-03-02T16:56:19.408547Z",
             "relationship_type": "uses",
-            "source_ref": "threat-actor--936671bf-fa42-49c8-a929-ff1979a63ae3",
-            "target_ref": "attack-pattern--febc666f-09fb-49bd-b3dc-677ad96a5033"
+            "source_ref": "threat-actor--dd2945db-d1af-4be0-8451-06cd8968b502",
+            "target_ref": "attack-pattern--9311663c-a6d0-44cf-832a-4487766e439b"
         }
     ]
 }
