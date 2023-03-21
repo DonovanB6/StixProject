@@ -2,7 +2,7 @@ from stix2 import ThreatActor, Malware, Campaign, Identity, Relationship, Bundle
 from random_word import RandomWords
 
 i = 0
-totalObjects = 3
+totalObjects = 1
 campaignArray = []
 while i < totalObjects:
     objtype = "campaign"
@@ -15,8 +15,8 @@ malwareArray = []
 while j < totalObjects:
     objtype = "malware"
     labels = "ddos"
-    malwareArray.append(Malware(type=objtype, labels=labels, name=name, is_family=False))
     name = RandomWords().get_random_word() + " " + labels
+    malwareArray.append(Malware(type=objtype, labels=labels, name=name, is_family=False))
     j += 1
 
 k = 0
