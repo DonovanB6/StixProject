@@ -1,47 +1,37 @@
 from stix2 import ThreatActor, Malware, Campaign, Identity, Relationship, Bundle
 from random_word import RandomWords
 
-i = 0
-totalObjects = 1
-campaignArray = []
-while i < totalObjects:
+totalObjects = 3
+objects = []
+
+for i in range(totalObjects):
+    # Creating Campaign object
     objtype = "campaign"
     name = RandomWords().get_random_word() + " " + objtype
-    campaignArray.append(Campaign(type=objtype,name=name ))
-    i += 1
+    campaign = Campaign(type=objtype,name=name)
 
-j = 0
-malwareArray = []
-while j < totalObjects:
+    # Creating Malware object
     objtype = "malware"
     labels = "ddos"
     name = RandomWords().get_random_word() + " " + labels
-    malwareArray.append(Malware(type=objtype, labels=labels, name=name, is_family=False))
-    j += 1
+    malware = Malware(type=objtype, labels=labels, name=name, is_family=False)
 
-k = 0
-threatArray = []
-while k < totalObjects:
+    # Creating ThreatActor object
     objtype = "threat-actor"
-    name = RandomWords().get_random_word() + " " + objtype  # from the random-word package
-    threatArray.append (ThreatActor(type=objtype, name=name))
-    k += 1
+    name = RandomWords().get_random_word() + " " + objtype
+    threat_actor = ThreatActor(type=objtype, name=name)
 
-l = 0
-relationshipArray = []
-while l < totalObjects:
+    # Creating Relationship object
     objtype = "relationship"
-    relationship_type = "uses"  # taken from the Threat Actor relationship guidance
-    source_ref = threatArray[l].id   
-    target_ref  = malwareArray[l].id
-    relationshipArray.append( Relationship(type=objtype, relationship_type=relationship_type, source_ref=source_ref, target_ref=target_ref))
-    l += 1
+    relationship_type = "uses"
+    relationship_type2 = "executes"
+    relationship = Relationship(type=objtype, relationship_type=relationship_type, source_ref=threat_actor.id, target_ref=malware.id)
+    relationship2 = Relationship(type=objtype, relationship_type=relationship_type2,source_ref=threat_actor.id, target_ref=campaign.id)
+    # Adding objects to the objects list
+    objects.extend([campaign, malware, threat_actor, relationship,relationship2])
 
-bundleArray = []
-z = 0
-while z < totalObjects:
-    objtype = "bundle"
-    objects = [campaignArray[z], malwareArray[z], threatArray[z], relationshipArray[z]]
-    bundleArray.append(Bundle(type=objtype, objects = objects))
-    print(bundleArray[z].serialize(pretty=True))
-    z += 1
+# Creating the bundle object
+bundle = Bundle(objects=objects)
+
+# Serializing and printing the bundle object
+print(bundle.serialize(pretty=True))
