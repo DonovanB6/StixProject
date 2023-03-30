@@ -4,7 +4,7 @@ from random_word import RandomWords
 totalObjects = 3
 totalCampaign = 3
 totalMalware = 3
-totalThreat = 3
+totalThreat = 1
 totalRelationship = 3
 objects = []
 campaignArray = []
@@ -36,16 +36,28 @@ for i in range(totalThreat):
     threatArray.extend([threat_actor])
     objects.extend([threat_actor])
 
-for i in range(totalRelationship):
-    # Creating Relationship object
-    objtype = "relationship"
-    relationship_type = "uses"
-    relationship_type2 = "executes"
-    relationship = Relationship(type=objtype, relationship_type=relationship_type, source_ref=campaignArray[i], target_ref=malwareArray[i])
-    relationship2 = Relationship(type=objtype, relationship_type=relationship_type2,source_ref=threatArray[i], target_ref=campaignArray[i])
-    # Adding objects to the objects list
-    objects.extend([relationship,relationship2])
 
+if len(threatArray) == 1:
+    for i in range(totalRelationship):
+    # Creating Relationship object
+        objtype = "relationship"
+        relationship_type = "uses"
+        relationship_type2 = "executes"
+        relationship = Relationship(type=objtype, relationship_type=relationship_type, source_ref=campaignArray[i], target_ref=malwareArray[i])
+        print ("test")
+        relationship2 = Relationship(type=objtype, relationship_type=relationship_type2,source_ref=threatArray[0], target_ref=campaignArray[i])
+        objects.extend([relationship,relationship2])
+if len(threatArray) > 1:
+    for i in range(totalRelationship):
+    # Creating Relationship object
+        objtype = "relationship"
+        relationship_type = "uses"
+        relationship_type2 = "executes"
+        relationship = Relationship(type=objtype, relationship_type=relationship_type, source_ref=campaignArray[i], target_ref=malwareArray[i])
+        print ("test2")
+        relationship2 = Relationship(type=objtype, relationship_type=relationship_type2,source_ref=threatArray[i], target_ref=campaignArray[i])
+    # Adding objects to the objects list
+        objects.extend([relationship,relationship2])
 # Creating the bundle object
 bundle = Bundle(objects=objects)
 
