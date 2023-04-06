@@ -71,10 +71,22 @@ extra_malwares = len(malwareArray) % len(campaignArray)
 malware_index = 0
 
 # Distribute malware evenly among campaigns
+# Calculate the number of malwares each campaign will receive
+malwares_per_campaign = len(malwareArray) // len(campaignArray)
+
+# Calculate the number of extra malwares to be assigned to the first few campaigns
+extra_malwares = len(malwareArray) % len(campaignArray)
+
+# Initialize malware index
+malware_index = 0
+
+# Distribute malware evenly among campaigns
 for i in range(len(campaignArray)):
     malwares_for_this_campaign = malwares_per_campaign
-    if i == 0:
-        malwares_for_this_campaign += extra_malwares
+
+    # Add an extra malware to the first few campaigns
+    if i < extra_malwares:
+        malwares_for_this_campaign += 1
 
     for j in range(malwares_for_this_campaign):
         # Creating Relationship objects
@@ -96,10 +108,6 @@ for i in range(len(campaignArray)):
     objects.append(relationship2)
 
 # Creating the bundle object
-
-# Creating the bundle object
-
-
 
 bundle = Bundle(objects=objects)
 
