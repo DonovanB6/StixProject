@@ -80,4 +80,7 @@ for i in range(len(campaignArray)):
 bundle = Bundle(objects=objects)
 
 # Serializing and printing the bundle object
-print(bundle.serialize(pretty=True))
+#print(bundle.serialize(pretty=True))
+
+with open('bundle.json', 'w') as jsonFile:
+    jsonFile.write(bundle.serialize(pretty=True))
