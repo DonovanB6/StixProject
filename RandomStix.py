@@ -1,11 +1,13 @@
 from stix2 import ThreatActor, Malware, Campaign, Identity, Relationship, Bundle
 from random_word import RandomWords
 
+#Random seeding for the program
+
 totalObjects = 3
-totalCampaign = 3
-totalMalware = 5
-totalThreat = 2
-totalRelationship = 3
+totalCampaign = int(input("How many Campaign objects would you like to create? ")) #3
+totalMalware = int(input("How many malware objects would you like to create? "))   #5                                                                #5
+totalThreat = int(input("How many threat objects would you like to create? ")) #2
+totalRelationship = totalCampaign    #int(input("How many Relationship objects would you like to create?(This should be the same as campaign objects) ")) #3
 objects = []
 campaignArray = []
 malwareArray = []
@@ -37,40 +39,6 @@ for i in range(totalThreat):
     objects.extend([threat_actor])
 
 
-# Calculate the number of malwares each threat actor will receive
-malwares_per_threat_actor = totalRelationship // len(threatArray)
-
-# Distribute malware evenly among threat actors
-# Calculate the number of malwares each threat actor will receive
-malwares_per_threat_actor = totalRelationship // len(threatArray)
-
-# Calculate the number of extra malwares to be assigned to the first threat actor
-extra_malwares = totalRelationship % len(threatArray)
-
-# Distribute malware evenly among threat actors
-for i in range(len(threatArray)):
-    malwares_for_this_actor = malwares_per_threat_actor
-    if i == 0:
-        malwares_for_this_actor += extra_malwares
-
-# Calculate the number of malwares each campaign will receive
-malwares_per_campaign = totalRelationship // len(campaignArray)
-
-# Calculate the number of extra malwares to be assigned to the first campaign
-extra_malwares = totalRelationship % len(campaignArray)
-
-# Distribute malware evenly among campaigns
-# Iterate through campaigns
-# Calculate the number of malwares each campaign will receive
-malwares_per_campaign = len(malwareArray) // len(campaignArray)
-
-# Calculate the number of extra malwares to be assigned to the first campaign
-extra_malwares = len(malwareArray) % len(campaignArray)
-
-# Initialize malware index
-malware_index = 0
-
-# Distribute malware evenly among campaigns
 # Calculate the number of malwares each campaign will receive
 malwares_per_campaign = len(malwareArray) // len(campaignArray)
 
