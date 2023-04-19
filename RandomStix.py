@@ -2,13 +2,13 @@ from stix2 import ThreatActor, Malware, Campaign, Identity, Relationship, Bundle
 from random_word import RandomWords
 
 #Random seeding for the program
-#Random Distribution through the objects
+#Random Distribution through the objects you can randomly have a list from 1 to half of the total objects and add the remaining objects to the end.
 #Victims: Identity Object type victim
 #Coding Time(Probably picking a range of time and have it happen over that range) Supply the created field of the time object for Identity to track time
 totalObjects = 3
 totalCampaign = int(input("How many Campaign objects would you like to create? ")) #3
 totalMalware = int(input("How many malware objects would you like to create? "))   #5                                                                #5
-totalThreat = int(input("How many threat objects would you like to create? ")) #2
+totalThreat = int(input("How many threat actor objects would you like to create? ")) #2
 totalRelationship = totalCampaign    #int(input("How many Relationship objects would you like to create?(This should be the same as campaign objects) ")) #3
 objects = []
 campaignArray = []

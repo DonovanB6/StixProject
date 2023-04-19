@@ -1,54 +1,54 @@
 {
     "type": "bundle",
-    "id": "bundle--7da41af6-a75a-4141-9e8e-9bb73c90666c",
+    "id": "bundle--72783e2d-3449-489d-a44a-72265ccbcb0c",
     "objects": [
         {
             "type": "campaign",
             "spec_version": "2.1",
-            "id": "campaign--746ed5b1-8d45-49a7-b311-ed25ccf79845",
-            "created": "2023-04-13T15:47:47.961545Z",
-            "modified": "2023-04-13T15:47:47.961545Z",
-            "name": "vansire campaign"
+            "id": "campaign--928a35cd-c500-41c1-aabe-cb9d9202d7ae",
+            "created": "2023-04-19T21:47:08.916222Z",
+            "modified": "2023-04-19T21:47:08.916222Z",
+            "name": "sandalwort campaign"
         },
         {
             "type": "campaign",
             "spec_version": "2.1",
-            "id": "campaign--76e00e1d-095d-416c-bc1c-a1e529c89adb",
-            "created": "2023-04-13T15:47:48.180653Z",
-            "modified": "2023-04-13T15:47:48.180653Z",
-            "name": "waxbush campaign"
+            "id": "campaign--ae7be0df-c289-4628-b8d4-a6bdeb3c6546",
+            "created": "2023-04-19T21:47:09.00696Z",
+            "modified": "2023-04-19T21:47:09.00696Z",
+            "name": "expensefulness campaign"
         },
         {
             "type": "campaign",
             "spec_version": "2.1",
-            "id": "campaign--c9e0700f-98c4-4b6d-a695-910deb8ce04a",
-            "created": "2023-04-13T15:47:48.401494Z",
-            "modified": "2023-04-13T15:47:48.401494Z",
-            "name": "trichogen campaign"
+            "id": "campaign--6bc9e228-302d-48cf-871e-9d08540c4c71",
+            "created": "2023-04-19T21:47:09.096409Z",
+            "modified": "2023-04-19T21:47:09.096409Z",
+            "name": "overconcentrating campaign"
         },
         {
             "type": "campaign",
             "spec_version": "2.1",
-            "id": "campaign--8e7e4807-afbd-4c1b-889a-3b1191cd048f",
-            "created": "2023-04-13T15:47:48.621698Z",
-            "modified": "2023-04-13T15:47:48.621698Z",
-            "name": "unconfirm campaign"
+            "id": "campaign--38b16def-08aa-4176-9f77-4aa0214caa59",
+            "created": "2023-04-19T21:47:09.186002Z",
+            "modified": "2023-04-19T21:47:09.186002Z",
+            "name": "vestimentary campaign"
         },
         {
             "type": "campaign",
             "spec_version": "2.1",
-            "id": "campaign--5ba0cab2-8f50-4c94-81fb-5b4e61570469",
-            "created": "2023-04-13T15:47:48.891355Z",
-            "modified": "2023-04-13T15:47:48.891355Z",
-            "name": "cancrine campaign"
+            "id": "campaign--2daf9d13-4ce3-485e-97da-4fd23076a60a",
+            "created": "2023-04-19T21:47:09.276357Z",
+            "modified": "2023-04-19T21:47:09.276357Z",
+            "name": "coinstantaneousness campaign"
         },
         {
             "type": "malware",
             "spec_version": "2.1",
-            "id": "malware--3d3a7625-bc1f-468d-9032-dd1baef551b7",
-            "created": "2023-04-13T15:47:49.217093Z",
-            "modified": "2023-04-13T15:47:49.217093Z",
-            "name": "zags ddos",
+            "id": "malware--59ccc69b-5b0a-4853-9b31-cd36ba8a4e43",
+            "created": "2023-04-19T21:47:09.36723Z",
+            "modified": "2023-04-19T21:47:09.36723Z",
+            "name": "cardiographies ddos",
             "is_family": false,
             "labels": [
                 "ddos"
@@ -57,10 +57,10 @@
         {
             "type": "malware",
             "spec_version": "2.1",
-            "id": "malware--a21642e2-c797-4c3d-a313-da05ce0f4a25",
-            "created": "2023-04-13T15:47:49.451453Z",
-            "modified": "2023-04-13T15:47:49.451453Z",
-            "name": "megachilidae ddos",
+            "id": "malware--dad25e45-0e1a-473b-9623-e1a2d78de2f6",
+            "created": "2023-04-19T21:47:09.457237Z",
+            "modified": "2023-04-19T21:47:09.457237Z",
+            "name": "tenures ddos",
             "is_family": false,
             "labels": [
                 "ddos"
@@ -69,10 +69,10 @@
         {
             "type": "malware",
             "spec_version": "2.1",
-            "id": "malware--0fd91fc9-2c0f-4375-b4d3-38bde0ea798b",
-            "created": "2023-04-13T15:47:49.685853Z",
-            "modified": "2023-04-13T15:47:49.685853Z",
-            "name": "undistorting ddos",
+            "id": "malware--8621368a-21ce-4f92-8750-78cfd5358efc",
+            "created": "2023-04-19T21:47:09.547443Z",
+            "modified": "2023-04-19T21:47:09.547443Z",
+            "name": "nonexcessive ddos",
             "is_family": false,
             "labels": [
                 "ddos"
@@ -81,10 +81,10 @@
         {
             "type": "malware",
             "spec_version": "2.1",
-            "id": "malware--10d3c915-13b7-4a6a-8c3c-7e53701f68ae",
-            "created": "2023-04-13T15:47:49.906716Z",
-            "modified": "2023-04-13T15:47:49.906716Z",
-            "name": "rwound ddos",
+            "id": "malware--00e560e0-39e8-4c80-b827-c18ca07601ab",
+            "created": "2023-04-19T21:47:09.637526Z",
+            "modified": "2023-04-19T21:47:09.637526Z",
+            "name": "genettes ddos",
             "is_family": false,
             "labels": [
                 "ddos"
@@ -93,10 +93,10 @@
         {
             "type": "malware",
             "spec_version": "2.1",
-            "id": "malware--c39304d6-e751-4eab-997e-0ecf77608692",
-            "created": "2023-04-13T15:47:50.146306Z",
-            "modified": "2023-04-13T15:47:50.146306Z",
-            "name": "paedagogism ddos",
+            "id": "malware--907557f8-7d84-495b-9ca9-23e81e543b0b",
+            "created": "2023-04-19T21:47:09.728466Z",
+            "modified": "2023-04-19T21:47:09.728466Z",
+            "name": "thymonucleic ddos",
             "is_family": false,
             "labels": [
                 "ddos"
@@ -105,10 +105,10 @@
         {
             "type": "malware",
             "spec_version": "2.1",
-            "id": "malware--ba81e7a4-5eb2-4f6f-b5cb-2c7625d2a3dd",
-            "created": "2023-04-13T15:47:50.376368Z",
-            "modified": "2023-04-13T15:47:50.376368Z",
-            "name": "leafboy ddos",
+            "id": "malware--11f64735-5f3b-40ef-8539-c2f51cbb0bb9",
+            "created": "2023-04-19T21:47:09.823988Z",
+            "modified": "2023-04-19T21:47:09.823988Z",
+            "name": "commoney ddos",
             "is_family": false,
             "labels": [
                 "ddos"
@@ -117,10 +117,70 @@
         {
             "type": "malware",
             "spec_version": "2.1",
-            "id": "malware--8a4475f9-53d2-4d3f-9515-082ec118fe82",
-            "created": "2023-04-13T15:47:50.596408Z",
-            "modified": "2023-04-13T15:47:50.596408Z",
-            "name": "cocksparrow ddos",
+            "id": "malware--b9f3b5aa-262a-4330-8047-1db228c74263",
+            "created": "2023-04-19T21:47:09.913742Z",
+            "modified": "2023-04-19T21:47:09.913742Z",
+            "name": "rhipidium ddos",
+            "is_family": false,
+            "labels": [
+                "ddos"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--3bd8515a-d057-4a8e-98ee-3cb36db9396b",
+            "created": "2023-04-19T21:47:10.006991Z",
+            "modified": "2023-04-19T21:47:10.006991Z",
+            "name": "pseudodiastolic ddos",
+            "is_family": false,
+            "labels": [
+                "ddos"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--7405b98c-a1de-4591-9735-403b9d0d1f38",
+            "created": "2023-04-19T21:47:10.096112Z",
+            "modified": "2023-04-19T21:47:10.096112Z",
+            "name": "cantling ddos",
+            "is_family": false,
+            "labels": [
+                "ddos"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--39f8164e-09ab-4aaa-8946-5ce1b0908aae",
+            "created": "2023-04-19T21:47:10.184821Z",
+            "modified": "2023-04-19T21:47:10.184821Z",
+            "name": "pomey ddos",
+            "is_family": false,
+            "labels": [
+                "ddos"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--0c850963-7ef1-4070-97dc-c8a92cad7381",
+            "created": "2023-04-19T21:47:10.2734Z",
+            "modified": "2023-04-19T21:47:10.2734Z",
+            "name": "brazenfacedly ddos",
+            "is_family": false,
+            "labels": [
+                "ddos"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--b0b5bf18-7432-46c0-b96a-ec97a8a24c1e",
+            "created": "2023-04-19T21:47:10.362023Z",
+            "modified": "2023-04-19T21:47:10.362023Z",
+            "name": "dependence ddos",
             "is_family": false,
             "labels": [
                 "ddos"
@@ -129,146 +189,212 @@
         {
             "type": "threat-actor",
             "spec_version": "2.1",
-            "id": "threat-actor--aa98b3e1-262d-4d6c-9541-278eed2644ad",
-            "created": "2023-04-13T15:47:50.815174Z",
-            "modified": "2023-04-13T15:47:50.815174Z",
-            "name": "fetishic threat-actor"
+            "id": "threat-actor--09906133-1723-4cc1-a20b-28309b94ef61",
+            "created": "2023-04-19T21:47:10.45047Z",
+            "modified": "2023-04-19T21:47:10.45047Z",
+            "name": "blickeys threat-actor"
         },
         {
             "type": "threat-actor",
             "spec_version": "2.1",
-            "id": "threat-actor--36c9b592-ce12-4c0a-8c54-4979e4d608b9",
-            "created": "2023-04-13T15:47:51.05135Z",
-            "modified": "2023-04-13T15:47:51.05135Z",
-            "name": "tokyoites threat-actor"
+            "id": "threat-actor--eb5ab539-816b-4fa7-b047-5931e3ae9c22",
+            "created": "2023-04-19T21:47:10.539022Z",
+            "modified": "2023-04-19T21:47:10.539022Z",
+            "name": "undecorously threat-actor"
         },
         {
             "type": "threat-actor",
             "spec_version": "2.1",
-            "id": "threat-actor--53a8a91e-a442-402f-ad32-e37a1fa9927a",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
-            "name": "overturning threat-actor"
+            "id": "threat-actor--2c649a27-0140-4981-babd-085ba8169523",
+            "created": "2023-04-19T21:47:10.627645Z",
+            "modified": "2023-04-19T21:47:10.627645Z",
+            "name": "semiprotective threat-actor"
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--b035a2ee-a78f-4885-a97c-0c90c92dfb21",
+            "created": "2023-04-19T21:47:10.718112Z",
+            "modified": "2023-04-19T21:47:10.718112Z",
+            "name": "crapping threat-actor"
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--7e90f209-a7d6-4ef5-9fc1-4e17afbcf785",
+            "created": "2023-04-19T21:47:10.809041Z",
+            "modified": "2023-04-19T21:47:10.809041Z",
+            "name": "coffeeman threat-actor"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--376d62d9-7ae0-47ee-ab8a-d433d792e5df",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--a22813d1-0f1e-475d-900c-a36d44f5662b",
+            "created": "2023-04-19T21:47:10.809192Z",
+            "modified": "2023-04-19T21:47:10.809192Z",
             "relationship_type": "uses",
-            "source_ref": "campaign--746ed5b1-8d45-49a7-b311-ed25ccf79845",
-            "target_ref": "malware--3d3a7625-bc1f-468d-9032-dd1baef551b7"
+            "source_ref": "campaign--928a35cd-c500-41c1-aabe-cb9d9202d7ae",
+            "target_ref": "malware--59ccc69b-5b0a-4853-9b31-cd36ba8a4e43"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--141d64fd-6e2e-4d6b-9fc8-ed2661eeb7b4",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
-            "relationship_type": "uses",
-            "source_ref": "campaign--5ba0cab2-8f50-4c94-81fb-5b4e61570469",
-            "target_ref": "malware--10d3c915-13b7-4a6a-8c3c-7e53701f68ae"
-        },
-        {
-            "type": "relationship",
-            "spec_version": "2.1",
-            "id": "relationship--8a2de24a-f9c2-4d9c-9eab-b407b38f3df5",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--e27cc65f-540b-4433-87ca-c612cf2bc81e",
+            "created": "2023-04-19T21:47:10.80951Z",
+            "modified": "2023-04-19T21:47:10.80951Z",
             "relationship_type": "executes",
-            "source_ref": "threat-actor--aa98b3e1-262d-4d6c-9541-278eed2644ad",
-            "target_ref": "campaign--746ed5b1-8d45-49a7-b311-ed25ccf79845"
+            "source_ref": "threat-actor--09906133-1723-4cc1-a20b-28309b94ef61",
+            "target_ref": "campaign--928a35cd-c500-41c1-aabe-cb9d9202d7ae"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--c307242a-5cf6-41ea-b981-e3fa249e0945",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--97591725-7fb7-4d30-8dcf-26d271759c19",
+            "created": "2023-04-19T21:47:10.809585Z",
+            "modified": "2023-04-19T21:47:10.809585Z",
             "relationship_type": "uses",
-            "source_ref": "campaign--76e00e1d-095d-416c-bc1c-a1e529c89adb",
-            "target_ref": "malware--0fd91fc9-2c0f-4375-b4d3-38bde0ea798b"
+            "source_ref": "campaign--ae7be0df-c289-4628-b8d4-a6bdeb3c6546",
+            "target_ref": "malware--dad25e45-0e1a-473b-9623-e1a2d78de2f6"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9fa03c75-f44b-4968-bd80-5eb2fe463873",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
-            "relationship_type": "uses",
-            "source_ref": "campaign--8e7e4807-afbd-4c1b-889a-3b1191cd048f",
-            "target_ref": "malware--10d3c915-13b7-4a6a-8c3c-7e53701f68ae"
-        },
-        {
-            "type": "relationship",
-            "spec_version": "2.1",
-            "id": "relationship--2762e620-97c6-4e15-b199-0d0ed155141e",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--17352071-d66e-4723-88c6-5eb74665380f",
+            "created": "2023-04-19T21:47:10.809657Z",
+            "modified": "2023-04-19T21:47:10.809657Z",
             "relationship_type": "executes",
-            "source_ref": "threat-actor--36c9b592-ce12-4c0a-8c54-4979e4d608b9",
-            "target_ref": "campaign--76e00e1d-095d-416c-bc1c-a1e529c89adb"
+            "source_ref": "threat-actor--eb5ab539-816b-4fa7-b047-5931e3ae9c22",
+            "target_ref": "campaign--ae7be0df-c289-4628-b8d4-a6bdeb3c6546"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--40490718-5123-4a63-9462-a96534bbf10f",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--60f8cf93-ca80-4d64-ba7a-9771401671b1",
+            "created": "2023-04-19T21:47:10.80973Z",
+            "modified": "2023-04-19T21:47:10.80973Z",
             "relationship_type": "uses",
-            "source_ref": "campaign--c9e0700f-98c4-4b6d-a695-910deb8ce04a",
-            "target_ref": "malware--c39304d6-e751-4eab-997e-0ecf77608692"
+            "source_ref": "campaign--6bc9e228-302d-48cf-871e-9d08540c4c71",
+            "target_ref": "malware--8621368a-21ce-4f92-8750-78cfd5358efc"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--4115b25d-ffd6-43ec-8dad-3f25a947c11a",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--49d21f0d-ea26-4c74-929b-8446fc6bd7c3",
+            "created": "2023-04-19T21:47:10.809796Z",
+            "modified": "2023-04-19T21:47:10.809796Z",
             "relationship_type": "executes",
-            "source_ref": "threat-actor--53a8a91e-a442-402f-ad32-e37a1fa9927a",
-            "target_ref": "campaign--c9e0700f-98c4-4b6d-a695-910deb8ce04a"
+            "source_ref": "threat-actor--2c649a27-0140-4981-babd-085ba8169523",
+            "target_ref": "campaign--6bc9e228-302d-48cf-871e-9d08540c4c71"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--309aa3f2-bb21-4a2a-ae26-61c2844be830",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--b81ccfa4-0996-4e89-81c0-c5a04565bd04",
+            "created": "2023-04-19T21:47:10.809861Z",
+            "modified": "2023-04-19T21:47:10.809861Z",
             "relationship_type": "uses",
-            "source_ref": "campaign--8e7e4807-afbd-4c1b-889a-3b1191cd048f",
-            "target_ref": "malware--ba81e7a4-5eb2-4f6f-b5cb-2c7625d2a3dd"
+            "source_ref": "campaign--38b16def-08aa-4176-9f77-4aa0214caa59",
+            "target_ref": "malware--00e560e0-39e8-4c80-b827-c18ca07601ab"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--d530a532-739d-469b-9dfd-464514917e3e",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--cfccdee9-c480-4044-a655-6c1487905606",
+            "created": "2023-04-19T21:47:10.809929Z",
+            "modified": "2023-04-19T21:47:10.809929Z",
             "relationship_type": "executes",
-            "source_ref": "threat-actor--aa98b3e1-262d-4d6c-9541-278eed2644ad",
-            "target_ref": "campaign--8e7e4807-afbd-4c1b-889a-3b1191cd048f"
+            "source_ref": "threat-actor--b035a2ee-a78f-4885-a97c-0c90c92dfb21",
+            "target_ref": "campaign--38b16def-08aa-4176-9f77-4aa0214caa59"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--77153c5b-30b3-448c-b8b2-be227e596642",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--6d2be286-1d1e-440d-ba89-ff82dee916d9",
+            "created": "2023-04-19T21:47:10.809995Z",
+            "modified": "2023-04-19T21:47:10.809995Z",
             "relationship_type": "uses",
-            "source_ref": "campaign--5ba0cab2-8f50-4c94-81fb-5b4e61570469",
-            "target_ref": "malware--8a4475f9-53d2-4d3f-9515-082ec118fe82"
+            "source_ref": "campaign--2daf9d13-4ce3-485e-97da-4fd23076a60a",
+            "target_ref": "malware--907557f8-7d84-495b-9ca9-23e81e543b0b"
         },
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--8ee88926-c9bb-4289-ad9c-72a22940d5fc",
-            "created": "2023-04-13T15:47:51.285733Z",
-            "modified": "2023-04-13T15:47:51.285733Z",
+            "id": "relationship--00fde044-9762-49c3-b839-271690843ccd",
+            "created": "2023-04-19T21:47:10.81006Z",
+            "modified": "2023-04-19T21:47:10.81006Z",
             "relationship_type": "executes",
-            "source_ref": "threat-actor--36c9b592-ce12-4c0a-8c54-4979e4d608b9",
-            "target_ref": "campaign--5ba0cab2-8f50-4c94-81fb-5b4e61570469"
+            "source_ref": "threat-actor--7e90f209-a7d6-4ef5-9fc1-4e17afbcf785",
+            "target_ref": "campaign--2daf9d13-4ce3-485e-97da-4fd23076a60a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e64e5e92-365e-42b7-841b-435af05736f0",
+            "created": "2023-04-19T21:47:10.810136Z",
+            "modified": "2023-04-19T21:47:10.810136Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--6bc9e228-302d-48cf-871e-9d08540c4c71",
+            "target_ref": "malware--11f64735-5f3b-40ef-8539-c2f51cbb0bb9"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--af41802c-28b2-46cf-92ae-82e37f1e0d19",
+            "created": "2023-04-19T21:47:10.810203Z",
+            "modified": "2023-04-19T21:47:10.810203Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--2daf9d13-4ce3-485e-97da-4fd23076a60a",
+            "target_ref": "malware--b0b5bf18-7432-46c0-b96a-ec97a8a24c1e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--27180a9f-62bc-4838-b02a-4c9042803efc",
+            "created": "2023-04-19T21:47:10.810268Z",
+            "modified": "2023-04-19T21:47:10.810268Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--ae7be0df-c289-4628-b8d4-a6bdeb3c6546",
+            "target_ref": "malware--0c850963-7ef1-4070-97dc-c8a92cad7381"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b5c4f6d6-ecee-4b9d-ae0c-32bf5460af93",
+            "created": "2023-04-19T21:47:10.810332Z",
+            "modified": "2023-04-19T21:47:10.810332Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--2daf9d13-4ce3-485e-97da-4fd23076a60a",
+            "target_ref": "malware--b9f3b5aa-262a-4330-8047-1db228c74263"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--92c8d41e-69d8-40e0-9210-f8ec6821cdc0",
+            "created": "2023-04-19T21:47:10.810397Z",
+            "modified": "2023-04-19T21:47:10.810397Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--ae7be0df-c289-4628-b8d4-a6bdeb3c6546",
+            "target_ref": "malware--3bd8515a-d057-4a8e-98ee-3cb36db9396b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ca332d9a-f1d0-4ea8-95e2-c63d5c663f93",
+            "created": "2023-04-19T21:47:10.810461Z",
+            "modified": "2023-04-19T21:47:10.810461Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--38b16def-08aa-4176-9f77-4aa0214caa59",
+            "target_ref": "malware--7405b98c-a1de-4591-9735-403b9d0d1f38"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0a013de1-4459-4e36-9f27-0360799b8fa4",
+            "created": "2023-04-19T21:47:10.810526Z",
+            "modified": "2023-04-19T21:47:10.810526Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--2daf9d13-4ce3-485e-97da-4fd23076a60a",
+            "target_ref": "malware--39f8164e-09ab-4aaa-8946-5ce1b0908aae"
         }
     ]
 }
